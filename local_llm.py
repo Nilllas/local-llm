@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Load the model and tokenizer
-model_name = "gpt2"  # You can replace this with your preferred local model
+model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"  # You can replace this with your preferred local model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
